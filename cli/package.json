@@ -1,0 +1,38 @@
+{
+  "name": "quark-tree-export-cli",
+  "version": "1.0.0",
+  "description": "免登录导出夸克云盘分享目录树（自动换 stoken，支持层级/提取码/JSON/导出 txt）",
+  "bin": {
+    "quark-tree": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "quark",
+    "quark-pan",
+    "quark-cloud",
+    "cli",
+    "directory-tree",
+    "share"
+  ],
+  "license": "MIT",
+  "author": "<YOUR_NAME>",
+  "homepage": "https://github.com/wallechfox/quark-tree-export#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wallechfox/quark-tree-export.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wallechfox/quark-tree-export/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "help": "node index.js --help"
+  }
+}
